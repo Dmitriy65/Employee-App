@@ -1,0 +1,94 @@
+
+
+.dividing-line {
+	border-left: 1.5px solid #b6bcc5;
+	margin: auto 0;
+	height: 600px;
+}
+
+.primary-profile-inner {
+	margin: 0 20px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.primary-profile {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+.primary-profile section {
+	margin-top: 25px;
+}
+
+.general-info h3::after {
+	display: block;
+	content: '';
+	background-color: #b6bcc5;
+	height: 1.5px;
+	width: 90%;
+	margin-top: 10px;
+}
+
+.article-title {
+	font-size: 15px;
+	font-weight: 700;
+	color: #b6bcc5;
+}
+
+.article-item {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.article-item i {
+	text-align: center;
+	width: 20px;
+	color: #3266cf;
+	margin-right: 15px;
+}
+
+.item-values {
+	width: 130px;
+	margin-right: 150px;
+}
+
+.article-item p {
+	margin-bottom: 22px;
+}
+
+.edit-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.edit-profile-btn {
+	width: 130px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #2b61c5;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+	background-color: #b6bcc5;
+}
+
+.internal-phone input {
+	padding: 20px;
+	columns: rgb(121, 99, 99);
+	background-color: forestgreen;
+}
+
+.edit-input {
+	border: 1px solid grey;
+	padding: 2px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+.rounding {
+	display: flex;
+	border-radius: 15px;
+	border: 1px solid grey;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.admin-panel-inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.admin-panel {
+	width: 100%;
+}

@@ -1,0 +1,38 @@
+i.one {
+	font-size: 13px;
+	position: relative;
+	top: 12px;
+	left: 6px;
+}
+
+.search-content {
+	display: flex;
+	margin: 20px;
+}
+
+.panel-roles {
+	display: flex;
+	margin: auto 0;
+	margin-left: 70px;
+}
+
+.panel-roles > div {
+	display: flex;
+	align-items: center;
+}
+
+.vacation-role {
+	margin-left: 130px;
+}
+
+.admin-role {
+	margin-left: 265px;
+}
+
+.vertical-line {
+	display: block;
+	height: 35px;
+	width: 1.5px;
+	background-color: #b6bcc5;
+	margin-right: 20px;
+}

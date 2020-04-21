@@ -1,0 +1,65 @@
+.user-panel {
+	display: flex;
+	align-items: center;
+}
+
+.user-panel i {
+	font-size: 20px;
+	padding: 6px;
+	border-radius: 50%;
+	background-color: #2151af;
+	cursor: pointer;
+}
+
+i.fa-telegram-plane {
+	margin: auto 20px;
+}
+
+i.fa-telegram-plane:hover {
+	background-color: whitesmoke;
+	color: rgb(63, 90, 189);
+}
+
+.user-img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.user-account {
+	display: flex;
+	background-color: #2151af;
+	border-radius: 20px;
+	cursor: pointer;
+	line-height: 1.75;
+}
+
+.user-account:hover {
+	background-color: whitesmoke;
+	color: rgb(63, 90, 189);
+}
+
+.user-account p {
+	padding: 0 15px;
+}
+
+i.fa-sign-out-alt {
+	margin-left: 25px;
+}
+
+.fa-sign-out-alt:hover {
+	background-color: whitesmoke;
+	color: rgb(63, 90, 189);
+}
+
+.exit-link {
+	color: whitesmoke;
+}
+
+.profile-link {
+	color: whitesmoke;
+}
+
+.profile-link:hover {
+	color: rgb(63, 90, 189);
+}

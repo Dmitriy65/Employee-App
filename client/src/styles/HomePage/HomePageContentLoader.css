@@ -1,0 +1,17 @@
+.center {
+  margin: auto;
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  font-size: 20px;
+}
+div.loader {
+  font-size: 80px;
+}
+
+.loaded {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

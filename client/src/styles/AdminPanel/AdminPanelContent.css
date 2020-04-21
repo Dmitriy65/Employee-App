@@ -1,0 +1,71 @@
+.results-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px !important;
+}
+
+.user-container-col {
+	width: 100%;
+	display: flex;
+	margin-bottom: 5px !important;
+}
+
+.user-container-col:last-child {
+	margin: 0 !important;
+}
+
+.user-identity-col img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin: 10px 20px;
+}
+
+.user-identity-col {
+	display: flex;
+	width: 330px;
+	
+}
+
+.user-identity-col span {
+	margin: auto 0;
+}
+
+.user-name-col,
+.user-native-name-col {
+	font-size: 16px;
+	padding: 1px;
+	text-decoration: underline;
+}
+
+.user-role {
+	display: flex;
+	margin: auto 0;
+	margin-left: 80px;
+}
+
+.role-btn {
+	width: 100px;
+	padding: 10px;
+	background-color: #ffffff;
+	color: rgb(173, 166, 166);
+	border: 1px solid rgb(187, 186, 186);
+	cursor: pointer;
+}
+
+.selected {
+	background-color: #407cf5;
+	color: #ffffff;
+	border-style: none;
+}
+
+.user-container-col:nth-child(2n + 1) {
+	background-color: rgb(238, 231, 231);
+}
+
+.user-container-col:last-child {
+	border-radius: 0 0 15px 15px;
+}
+
+
+

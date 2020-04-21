@@ -1,0 +1,1 @@
+export const serverBase = 'http://localhost:3000/api/v1';
