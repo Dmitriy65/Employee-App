@@ -1,2 +1,2 @@
-start react app: in react-redux folder enter -> npm start
-start server: in server folder enter -> nodemon server
+start react app: in client folder enter command-> npm start
+start server: in server folder enter command-> nodemon server
